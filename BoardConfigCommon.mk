@@ -81,3 +81,6 @@ BOARD_EGL_CFG := device/pantech/msm8960-common/configs/egl.cfg
 # Webkit
 ENABLE_WEBGL := true
 TARGET_FORCE_CPU_UPLOAD := true
+
+# bdroid_buildcfg.h
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/pantech/msm8660-common/bluetooth
