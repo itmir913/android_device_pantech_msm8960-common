@@ -94,9 +94,11 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
+# build/core/base_rules.mk:130: *** hardware/qcom/power: MODULE.TARGET.SHARED_LIBRARIES.power.msm8960 already defined by device/pantech/msm8960-common/power.  멈춤.
+
 # Power
-PRODUCT_PACKAGES += \
-    power.msm8960
+#PRODUCT_PACKAGES += \
+#    power.msm8960
 
 # HDMI
 PRODUCT_PACKAGES += \
